@@ -7,16 +7,31 @@ background-size: cover;
 
 */
 
-background:url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body * {
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:white
 }
 
+}
 #container{
-width: 360;
+width: 360px;
     border: 1px solid red;
     margin: auto;
 }
+
+#profile{
+    text-align: center;
+}
+
+
 #profile img{
-    display: block;
-    width: 112px;
-    margin: auto;
+
+    width: 115 px;
+  
 }
