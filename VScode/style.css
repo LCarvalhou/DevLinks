@@ -33,6 +33,7 @@ body * {
 width: 360px;    
     margin: auto;
     margin: 56px auto 0px; /* subistiucao*/
+    padding: 0 24px;
 
 }
 
@@ -69,6 +70,15 @@ ul li a {
     background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.5);
     border-radius: 8px;
+
     backdrop-filter: blur (4px);
-    -webkit-backdrop-filter: blur (4px); /* Webkit- para o nevegador Safari */
+    -webkit-backdrop-filter: blur (4px);/* Webkit- para o nevegador Safari */
+    text-decoration: none;
+    font: weight 500;
+    transition: background 0.3s;
+}
+
+ul a:hover{
+    background: rgba(255,255,255,0.05);
+    border: 1.5px solid white;
 }
